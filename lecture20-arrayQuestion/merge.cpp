@@ -31,7 +31,7 @@ void print(std::vector<int> const & ans) {
 }
 
 int main() {
-    std::vector<int> arr1 = { 1,3,5,7,9 };
+    std::vector<int> arr1 = { 1,3,5,7,2,34,0,3,1,5,8 };
     std::vector<int> arr2 = { 2,4,6 };
     std::vector<int> arr3;
     merge(arr1, arr2, arr3);
